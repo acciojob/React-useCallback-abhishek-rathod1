@@ -31,6 +31,7 @@ const UseCallbackComp = () => {
   }, []);
   return (
     <div>
+      <h1 id='heading'>Learning UseCallback</h1>
       <input
         onChange={(e) => setSkillInput(e.target.value)}
         id="skill-input"
